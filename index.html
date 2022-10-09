@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score_container">
+                <h3>HOME</h3>
+                <div class="score_window" id="sc-home">
+                    0
+                </div>
+                <div class="buttons_container">
+                    <div class="inc_button" id="home-inc1" onClick="inc_variable('sc-home',1)">+1</div>
+                    <div class="inc_button" id="home-inc2" onClick="inc_variable('sc-home',2)">+2</div>
+                    <div class="inc_button" id="home-inc3" onClick="inc_variable('sc-home',3)">+3</div>
+                </div>
+            </div>
+            <div class="score_container">
+                <h3>GUEST</h3>
+                <div class="score_window" id="sc-guest">
+                    0
+                </div>
+                <div class="buttons_container">
+                    <div class="inc_button" id="guest-inc1" onClick="inc_variable('sc-guest',1)">+1</div>
+                    <div class="inc_button" id="guest-inc2" onClick="inc_variable('sc-guest',2)">+2</div>
+                    <div class="inc_button" id="guest-inc3" onClick="inc_variable('sc-guest',3)">+3</div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
